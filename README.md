@@ -1,6 +1,7 @@
 # OAM - Offline Account Management
 ### manage your account related information online through storing your personal login details offline
 **Built with python tkinter(GUI + programming logic's) + pymongo (No-SQL Database)**
+![image](https://user-images.githubusercontent.com/22993048/112653085-0d50e080-8e89-11eb-88b3-4a67407579b6.png)
 
 ## libraries used:
 
