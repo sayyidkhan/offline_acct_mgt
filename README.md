@@ -4,6 +4,6 @@
 
 ## libraries used:
 
-- tkinter
-- pyotp
-- pymongo
+- tkinter (For building the GUI)
+- pyotp (For the generating of OTP)
+- pymongo (For the persistence of personal information on the user's harddisk)
