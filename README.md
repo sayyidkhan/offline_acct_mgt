@@ -1,5 +1,5 @@
 # OAM - Offline Account Management
-<img width="600" alt="app overview" src="https://user-images.githubusercontent.com/22993048/112654421-56556480-8e8a-11eb-8975-ae82386c118b.png">
+<img width="700" alt="app overview" src="https://user-images.githubusercontent.com/22993048/112654421-56556480-8e8a-11eb-8975-ae82386c118b.png">
 <h3>manage your account related information online through storing your personal login details offline</h3>
 <br>
 <p float='left'>
