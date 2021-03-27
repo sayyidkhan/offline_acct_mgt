@@ -40,7 +40,6 @@ you should be able to view the database. basic knowledge in mongodb is required 
 ### Main Use (Store credentials offline and generate OTP)
 ![Screen Recording 2021-03-27 at 6 58 06 PM](https://user-images.githubusercontent.com/22993048/112718765-06c97400-8f30-11eb-834a-87034623c7eb.gif)
 <p>User click on the 'Run' Button to generate the OTP on the computer</p>
-
 <h3> User can add new account and username via filling up the info and clicking add button</h3>
 ![Screen Recording 2021-03-27 at 8 23 26 PM](https://user-images.githubusercontent.com/22993048/112720733-2023ed80-8f3b-11eb-820d-0442d984f041.gif)
 
