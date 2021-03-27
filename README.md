@@ -15,14 +15,26 @@
 - pyotp (For the generating of OTP)
 - pymongo (For the persistence of personal information on the user's harddisk)
 
+## how to run
+1. install python first (tkinter will be pre-installed with python)
+2. run the commands below in the command line if the libraries are not installed yet
+```
+pip install pymongo
+pip install pyotp
+```
+3. use your terminal to navigate to the directory folder './offline_acct_mgt' on your computer
+4. run these commands below in the terminal
+```
+python3 mainapp.py
+```
+5. the app should startup successfully
+6. (optional) for dev enthusiast, download mongoDB compass to view the database
+<img width="607" alt="Screenshot 2021-03-27 at 8 10 01 PM" src="https://user-images.githubusercontent.com/22993048/112720312-78a5bb80-8f38-11eb-8a27-32eb4d4a72d8.png">
+*click on the 'Fill in connection fields individually'*
+
+
 ## How to use:
 
 ### Main Use (Store credentials offline and generate OTP)
 ![Screen Recording 2021-03-27 at 6 58 06 PM](https://user-images.githubusercontent.com/22993048/112718765-06c97400-8f30-11eb-834a-87034623c7eb.gif)
-```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
+
