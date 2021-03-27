@@ -30,7 +30,9 @@ python3 mainapp.py
 5. the app should startup successfully
 6. (optional) for dev enthusiast, download mongoDB compass to view the database
 <img width="607" alt="Screenshot 2021-03-27 at 8 10 01 PM" src="https://user-images.githubusercontent.com/22993048/112720312-78a5bb80-8f38-11eb-8a27-32eb4d4a72d8.png">
-*click on the 'Fill in connection fields individually'*
+<b>click on the 'Fill in connection fields individually'</b>
+<img width="605" alt="Screenshot 2021-03-27 at 8 10 09 PM" src="https://user-images.githubusercontent.com/22993048/112720340-a559d300-8f38-11eb-9ad1-72fc7113eaf6.png">
+<b>Ensure all the information is correct before clicking connect!</b>
 
 
 ## How to use:
