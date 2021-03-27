@@ -33,7 +33,7 @@ python3 mainapp.py
 <b>click on the 'Fill in connection fields individually'</b>
 <img width="605" alt="Screenshot 2021-03-27 at 8 10 09 PM" src="https://user-images.githubusercontent.com/22993048/112720340-a559d300-8f38-11eb-9ad1-72fc7113eaf6.png">
 <b>Ensure all the information is correct before clicking connect!</b>
-
+you should be able to view the database. basic knowledge in mongodb is required to nagivate the database.
 
 ## How to use:
 
