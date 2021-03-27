@@ -13,9 +13,22 @@ class MainWindow:
 	def _getDb(self):
 		return self.dbOperations
 
+	@staticmethod
+	def togglePasswordUI(textBoxObj,state):
+		print(state)
+		if(state['currentState']):
+			state['currentState'] = False
+			textBoxObj['password'].config(show='')
+			textBoxObj['googleAuthKey'].config(show='')
+		else:
+			state['currentState'] = True
+			textBoxObj['password'].config(show='*')
+			textBoxObj['googleAuthKey'].config(show='*')
+
 	def renderUI(self):
 		root = Tk()
 		content = ttk.Frame(root, padding=(12,12,12,12))
+		showPassword = {'currentState' : True}
 
 		## top label
 		topButtonFrame = Frame(content, highlightbackground="black", highlightthickness=1)
@@ -48,12 +61,12 @@ class MainWindow:
 		''' password '''
 		passwordLbl = ttk.Label(userDetailFrame, text="Password")
 		fel.CreateToolTip(passwordLbl,text="Password of your account")
-		passwordEntry = ttk.Entry(userDetailFrame)
+		passwordEntry = ttk.Entry(userDetailFrame,show='*')
 
 		''' google Authenticator '''
 		goggleAuthLbl = ttk.Label(userDetailFrame, text="Google Auth Key")
 		fel.CreateToolTip(goggleAuthLbl,text="Google Authenticator secret key of your account")
-		goggleAuthEntry = ttk.Entry(userDetailFrame)
+		goggleAuthEntry = ttk.Entry(userDetailFrame,show='*')
 
 		''' consolidate into dictonary for easy access '''
 		textBoxObj = {
@@ -85,7 +98,7 @@ class MainWindow:
 		delete = ttk.Button(bottomButtonFrame, text="Delete Selected Row",state='disabled', command=lambda:tableGUI.deleteCurrRow())
 		save = ttk.Button(bottomButtonFrame, text="Save", state='disabled', command=lambda:tableGUI.updateRecord())
 		refresh = ttk.Button(bottomButtonFrame, text="Refresh List", command=lambda:tableGUI.refreshTable())
-		hideInfo = ttk.Button(bottomButtonFrame, text="Hide Info", state='disabled')
+		hideInfo = ttk.Button(bottomButtonFrame, text="Show Info", command=lambda:MainWindow.togglePasswordUI(textBoxObj,showPassword))
 
 		''' add btns & information object into dict '''
 		textBoxObj['btnDelete'] = delete
