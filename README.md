@@ -45,4 +45,6 @@ you should be able to view the database. basic knowledge in mongodb is required 
 <img width='650' src='https://user-images.githubusercontent.com/22993048/112722639-af360300-8f45-11eb-92dc-f4c42f3ac3f5.gif'>
 <h3> User can delete existing accounts and username which is no longer in use</h3>
 <img width='650' src='https://user-images.githubusercontent.com/22993048/112722888-d5a86e00-8f46-11eb-8a8c-51e7583f896e.gif'>
+<h3> User can make edits to existing account with the feature to manage password visibility</h3>
+<img width='650' src='https://user-images.githubusercontent.com/22993048/112722943-2b7d1600-8f47-11eb-8e50-48f95fc75e0d.gif'>
 
