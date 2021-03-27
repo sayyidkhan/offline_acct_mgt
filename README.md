@@ -19,3 +19,10 @@
 
 ### Main Use (Store credentials offline and generate OTP)
 ![Screen Recording 2021-03-27 at 6 58 06 PM](https://user-images.githubusercontent.com/22993048/112718765-06c97400-8f30-11eb-834a-87034623c7eb.gif)
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
