@@ -42,6 +42,6 @@ you should be able to view the database. basic knowledge in mongodb is required 
 </p>
 <p>User click on the 'Run' Button to generate the OTP on the computer</p>
 <h3> User can add new account and username via filling up the info and clicking add button</h3>
-![Screen Recording 2021-03-27 at 8 23 26 PM (1)](https://user-images.githubusercontent.com/22993048/112722639-af360300-8f45-11eb-92dc-f4c42f3ac3f5.gif)
+<img src='https://user-images.githubusercontent.com/22993048/112722639-af360300-8f45-11eb-92dc-f4c42f3ac3f5.gif'>
 
 
