@@ -9,8 +9,13 @@
 </p>
 <h4>Built with python tkinter(GUI + programming logic's) + pymongo (No-SQL Database)</h4>
 
-## libraries used:
+## Libraries used:
 
 - tkinter (For building the GUI)
 - pyotp (For the generating of OTP)
 - pymongo (For the persistence of personal information on the user's harddisk)
+
+## How to use:
+
+### Main Use (Store credentials offline and generate OTP)
+![Screen Recording 2021-03-27 at 6 58 06 PM](https://user-images.githubusercontent.com/22993048/112718765-06c97400-8f30-11eb-834a-87034623c7eb.gif)
