@@ -1,4 +1,7 @@
 # OAM - Offline Account Management
+<h3>prerequisite</h3>
+- MongoDB needs to be installed on your local machine. The version does not matter.
+
 <h3>Manage your account related information online through storing your personal login details offline</h3>
 <p>An easy way to manage your storage of your personal accounts on the desktop while able to generate OTP for accounts which require a generated code for it.</p>
 <img width="750" alt="app overview" src="https://user-images.githubusercontent.com/22993048/112654421-56556480-8e8a-11eb-8975-ae82386c118b.png">
